@@ -1,0 +1,41 @@
+{{#unless _.data.site.product}}
+   <div>Select a product in Page Builder to populate this widget</div>
+{{else}}
+   <div style="width:100%">
+       <img
+       srcset="{{_.data.site.product.defaultImage.url320wide}} 320w,
+       {{_.data.site.product.defaultImage.url640wide}} 640w,
+       {{_.data.site.product.defaultImage.url960wide}} 960w,
+       {{_.data.site.product.defaultImage.url960wide}} 1280w"
+       sizes="(max-width: 600px) 320px,
+       960px"
+       src="{{_.data.site.product.defaultImage.url960wide}}"
+       style="display: block;max-width: 66%; margin-left:auto; margin-right:auto" />
+       </div>
+       <div style="display: block;margin-left:auto; margin-right:auto;">
+           <strong style="display: block;">{{_.data.site.product.name}}</strong>
+           <em style="display: block;">{{_.data.site.product.plainTextDescription}}</em>
+           <ul style="list-style: none;">
+           {{#each _.data.site.product.variants.edges }}
+               <li>
+                   <div style="display:flex;flex-direction: row">
+                       <div style="width:160px;flex-grow: 1">
+                           {{#if node.defaultImage}}
+                           <img src="{{node.defaultImage.url160wide}}"/>
+                           {{/if}}
+                       </div>
+                       <div style="flex-grow: 1">
+                           <span>
+                               {{toFixed node.prices.price.value 2}} {{node.prices.price.currencyCode}}
+                           </span>
+                       </div>
+                       <div style="flex-grow: 3">
+                           <strong>{{node.sku}}</strong>
+                       </div>
+                   </div>
+               </li>
+           {{/each}}
+           </ul>
+       </div>
+   </div>
+{{/unless}}

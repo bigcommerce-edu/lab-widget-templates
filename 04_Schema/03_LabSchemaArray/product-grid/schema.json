@@ -1,0 +1,35 @@
+[
+  {
+    "type": "array",
+    "label": "Products",
+    "id": "products",
+    "defaultCount": 3,
+    "entryLabel": "Product",
+    "schema": [
+      {
+        "type": "tab",
+        "label": "Product Settings",
+        "sections": [
+          {
+            "label": "Configure the Product",
+            "settings": [
+              {
+                "type": "productId",
+                "label": "Select a Product",
+                "id": "productId"
+              },
+              {
+                "type": "productImage",
+                "label": "Image",
+                "id": "image",
+                "typeMeta": {
+                  "reference": "productId"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

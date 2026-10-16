@@ -1,0 +1,48 @@
+[
+  {
+    "type": "tab",
+    "label": "Static Content",
+    "sections": [
+      {
+        "label": "Static Content",
+        "settings": [
+          {
+            "type": "input",
+            "id": "heading_text",
+            "label": "Heading Text",
+            "default": "Type a Heading"
+          },
+          {
+            "type": "imageManager",
+            "id": "image",
+            "label": "Image",
+            "default": {
+              "src": "https://placehold.it/250x250",
+              "type": "IMAGE_MANAGER"
+            }
+          },
+          {
+            "type": "range",
+            "label": "Image Width",
+            "id": "width",
+            "default": "250",
+            "typeMeta": {
+              "rangeValues": {
+                "min": 100,
+                "max": 1200,
+                "step": 1,
+                "unit": "px"
+              }
+            }
+          },
+          {
+            "type": "text",
+            "label": "Text Block Content",
+            "id": "text_block",
+            "default": "Add your promotional or informational text for this widget region."
+          }
+        ]
+      }
+    ]
+  }
+]

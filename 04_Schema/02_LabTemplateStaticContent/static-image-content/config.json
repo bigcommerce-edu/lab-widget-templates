@@ -1,0 +1,9 @@
+{
+  "heading_text": "Type a Heading",
+  "image": {
+    "src": "https://placehold.it/250x250",
+    "type": "IMAGE_MANAGER"
+  },
+  "width": "250",
+  "text_block": "Add your promotional or informational text for this widget region."
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "type": "hidden",
+    "settings": [
+      {
+        "type": "graphQl",
+        "id": "graphQueries",
+        "typeMeta": {
+          "mappings": {
+            "productId": {
+              "reads": "productId",
+              "type": "Int"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "tab",
+    "label": "Display GraphQL Query Data",
+    "sections": [
+      {
+        "label": "Product",
+        "settings": [
+          {
+            "type": "productId",
+            "label": "Select a Product",
+            "id": "productId"
+          }
+        ]
+      }
+    ]
+  }
+]
