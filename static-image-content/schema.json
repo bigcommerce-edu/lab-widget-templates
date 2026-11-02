@@ -17,7 +17,7 @@
             "id": "image",
             "label": "Image",
             "default": {
-              "src": "https://placehold.it/250x250",
+              "src": "https://placeholder.photo/250x250",
               "type": "IMAGE_MANAGER"
             }
           },

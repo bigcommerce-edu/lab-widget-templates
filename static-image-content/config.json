@@ -1,7 +1,7 @@
 {
   "heading_text": "Type a Heading",
   "image": {
-    "src": "https://placehold.it/250x250",
+    "src": "https://placeholder.photo/250x250",
     "type": "IMAGE_MANAGER"
   },
   "width": "250",
