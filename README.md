@@ -25,13 +25,19 @@ Widgets are previewed and published using [Widget Builder](https://github.com/bi
     widget-builder init
     ```
 
-3. From this repo, start Widget Builder with the template you want to preview. It opens in your browser on port 8080.
+3. Copy the `config.json.example` file as `config.json` and apply store-specific values if applicable.
+
+```shell
+cp hello-world/config.json.example hello-world/config.json
+```
+
+4. From this repo, start Widget Builder with the template you want to preview. It opens in your browser on port 8080.
 
     ```shell
     widget-builder start hello-world
     ```
 
-4. To publish a template to your store:
+5. To publish a template to your store:
 
     ```shell
     widget-builder publish hello-world

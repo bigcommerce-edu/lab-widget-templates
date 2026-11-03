@@ -1,21 +1,21 @@
 {
   "products": [
     {
-      "productId": 50918,
+      "productId": <product-id>,
       "image": {
         "src": "https://placeholder.photo/200x200",
         "type": "PRODUCT_IMAGE"
       }
     },
     {
-      "productId": 50918,
+      "productId": <product-id>,
       "image": {
         "src": "https://placeholder.photo/200x200",
         "type": "PRODUCT_IMAGE"
       }
     },
     {
-      "productId": 50918,
+      "productId": <product-id>,
       "image": {
         "src": "https://placeholder.photo/200x200",
         "type": "PRODUCT_IMAGE"
