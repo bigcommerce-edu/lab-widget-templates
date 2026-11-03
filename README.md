@@ -25,7 +25,7 @@ Widgets are previewed and published using [Widget Builder](https://github.com/bi
     widget-builder init
     ```
 
-3. Copy the `config.json.example` file as `config.json` and apply store-specific values if applicable.
+3. Copy the `config.json.example` file as `config.json` and apply store-specific values if applicable. Do the same with `queryParams.json.example` if it exists.
 
 ```shell
 cp hello-world/config.json.example hello-world/config.json
