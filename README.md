@@ -6,7 +6,8 @@ Widgets are previewed and published using [Widget Builder](https://github.com/bi
 
 ## Prerequisites
 
-* Node.js 18
+* Node.js (see Widget Builder for version requirements)
+* [Widget Builder](https://github.com/bigcommerce/widget-builder) installed globally
 * A BigCommerce store
 * A store API account with the `Content: modify` scope. Widget Builder needs the account's Client ID, Access Token, and API Path.
 
